@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
-    //Definição de variáveis.
+    //DefiniÃ§Ã£o de variÃ¡veis.
     real notaUm, notaDois, media
 
-    //Declarção de variáveis.
+    //DeclarÃ§Ã£o de variÃ¡veis.
     escreva("Digite aqui sua primeira nota: ")
     leia(notaUm)
     escreva("Digite aqui sua segunda nota: ")
@@ -13,13 +13,15 @@ programa {
     //Calculadora.
     media = (notaUm + notaDois) / 2
 
-    //Condicional
+    //Condicional 
+    escreva("Primeira nota: ", notaUm)
+    escreva("Segunda nota: ", notaDois)
     se(media >= 6){
-      escreva("Parabéns, você foi aprovado")
+      escreva("ParabÃ©ns, vocÃª foi aprovado")
     } senao se (media >= 4 e media < 6){
-      escreva("Você está em recuperação")
+      escreva("VocÃª estÃ¡ em recuperaÃ§Ã£o")
     } senao {
-      escreva("Você foi reprovado")
+      escreva("VocÃª foi reprovado")
     }
   }
 }

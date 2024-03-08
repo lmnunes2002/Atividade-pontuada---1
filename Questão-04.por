@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
-  //DeclaraÁ„o de vari·veis.
+  //Declara√ß√£o de vari√°veis.
   cadeia fruta
   inteiro codigo
   real desconto, total, kilosMorango, kilosMaca, somaKilos, valorMorango, valorMaca
 
   //Menu
   escreva("=================== MENU ===================")
-  escreva("\nFruta \t\t\tAtÈ 5kg \t\t\t\t\t\tAcima de 5Kg")
+  escreva("\nFruta \t\t\tAt√© 5kg \t\t\t\t\t\tAcima de 5Kg")
   escreva("\nMorango \t\tR$2,50 por Kg \t\t\tR$2,20 por Kg")
-  escreva("\nMaÁ„ \t\t\t\tR$1,80 por Kg \t\t\tR$1,50 por Kg")
+  escreva("\nMa√ß√£ \t\t\t\tR$1,80 por Kg \t\t\tR$1,50 por Kg")
   escreva("\n==================== FIM ====================")
   
-  //DefiniÁ„o de vari·veis.
-  escreva("\n\nDigite quanto kilos de morango vocÍ deseja: ")
+  //Defini√ß√£o de vari√°veis.
+  escreva("\n\nDigite quanto kilos de morango voc√™ deseja: ")
   leia(kilosMorango)
-  escreva("Digite quantos kilos de maÁ„ vocÍ deseja: ")
+  escreva("Digite quantos kilos de ma√ß√£ voc√™ deseja: ")
   leia(kilosMaca)
   limpa()
 
@@ -25,7 +25,7 @@ programa {
   } senao se(kilosMorango > 5){
     valorMorango = kilosMorango * 2.2
   } senao {
-    escreva("Valor inv·lido")
+    escreva("Valor inv√°lido")
   }
 
   se(kilosMaca <= 5){
@@ -33,7 +33,7 @@ programa {
   } senao se(kilosMaca > 5){
     valorMaca = kilosMaca * 1.5
   } senao {
-    escreva("Valor inv·lido")
+    escreva("Valor inv√°lido")
   }
 
   //Calculadora.
@@ -50,12 +50,14 @@ programa {
   escolha(codigo){
     caso 1:
     escreva("Valor de Morangos: ", valorMorango)
-    escreva("\nValor de MaÁ„s: ", valorMaca)
+    escreva("\nValor de Ma√ß√£s: ", valorMaca)
     escreva("\nValor da compra: ", total)
+    pare
     caso 2:
     escreva("Valor de Morangos: ", valorMorango)
-    escreva("\nValor de MaÁ„s: ", valorMaca)
-    escreva("\nValor da compra: ", desconto)
+    escreva("\nValor de Ma√ß√£s: ", valorMaca)
+    escreva("\nValor da compra: ", desconto
+    pare
   }
-  }
+}
 }

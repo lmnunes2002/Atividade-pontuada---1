@@ -56,7 +56,7 @@ programa {
     caso 2:
     escreva("Valor de Morangos: ", valorMorango)
     escreva("\nValor de Maçãs: ", valorMaca)
-    escreva("\nValor da compra: ", desconto
+    escreva("\nValor da compra: ", desconto)
     pare
   }
 }

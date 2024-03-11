@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    //DefiniÁ„o de vari·veis.
+    //Defini√ß√£o de vari√°veis.
     cadeia nome, sexo, estadoCivil
     inteiro anosCasamento
 
-    //DeclaraÁ„o de vari·veis.
+    //Declara√ß√£o de vari√°veis.
     escreva("Digite aqui seu nome: ")
     leia(nome)
     escreva("Digite aqui seu sexo(F ou M): ")
@@ -25,7 +25,7 @@ programa {
     escreva("\nSexo: ", sexo)
     escreva("\nEstado civil: ", estadoCivil)
     se(sexo == "F" e estadoCivil == "Casada"){
-      escreva("\nAnos de casamento: ", anosCasamento)
+      escreva("\nAnos de casamento: ", anosCasamento, " anos")
     }
   }
 }

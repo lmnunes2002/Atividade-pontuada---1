@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o de vari·veis.
-    real A, B, C, somaUm
+    //Declara√ß√£o de vari√°veis.
+    inteiro A, B, C, somaUm
 
-    //DefiniÁ„o de vari·veis.
+    //Defini√ß√£o de vari√°veis.
     escreva("Atribua um valor pra A: ")
     leia(A)
     escreva("Atribua um valor pra B: ")
@@ -14,11 +14,11 @@ programa {
 
     //Condicional.
     se ((A + B) < C)
-      escreva("A soma de A + B È menor que C")
+      escreva("A soma de A + B √© menor que C")
       senao se((A + B) > C){
-        escreva("A + B È maior que C")
+        escreva("A + B √© maior que C")
       } senao {
-        escreva("Os valores s„o iguais")
+        escreva("Os valores s√£o iguais")
       }
   }
 }

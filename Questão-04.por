@@ -39,7 +39,7 @@ programa {
   //Calculadora.
   total = valorMaca + valorMorango
   somaKilos = kilosMorango + kilosMaca
-  se(somaKilos >= 8 ou total > 25){
+  se(somaKilos > 8 ou total > 25){
     codigo = 2
     desconto = total * 0.9
   } senao {
@@ -59,5 +59,5 @@ programa {
     escreva("\nValor da compra: ", desconto)
     pare
   }
-}
+  }
 }
